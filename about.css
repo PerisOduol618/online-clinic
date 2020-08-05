@@ -34,5 +34,19 @@ image{
     background-attachment: fixed;
 }
 h1{
-    font-size: 500;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f18c41;
+    font-family: 'Lemon',cursive;
+}
+#carousel{
+    height: 50vh;
+}
+.img-carousel{
+    background-size: cover;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
 }

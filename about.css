@@ -24,14 +24,17 @@
 p{
     font-style: normal;
 }
-/* image{
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(./pepe1.jpg) center/ cover no-repeat fixed;
-    height: 100vh;
+
+/* body {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),  url(../online-clinic/Images/pepe1.jpg);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
     background-attachment: fixed;
+    text-align: center;
+    overflow-x: none;
 } */
 h1{
     height: 50vh;

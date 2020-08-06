@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Clinic</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="css/safety.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <!-- MD bootstrap Cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <!-- Font Awesome -->
@@ -22,7 +22,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark default-color-dark">
-        <img src="/Images/image1.jpeg" alt="image" class="first">
+        <img src="Images/image1.jpeg" alt="image" class="first">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -31,7 +31,21 @@
                 <li class="nav-item active">
                    <a class="nav-link waves-effect waves-light" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
-                </ul>
+                <li class="nav-item">
+                    <a class="nav-link waves-effect waves-light" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link waves-effect waves-light" href="#">Make an Online Appointment</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink"               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu dropdown-info" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item waves-effect waves-light" href="#">Action</a>
+                        <a class="dropdown-item waves-effect waves-light" href="#">Another action</a>
+                        <a class="dropdown-item waves-effect waves-light" href="#">safety and patient safety</a>
+                    </div>
+                </li>
+            </ul>
             <form class="form-inline">
               <div class="md-form my-0">
                 <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
@@ -41,45 +55,158 @@
         </div>
     </nav>
 
-<br><br>
-<div class="container">
-  <div class="diet-overlay">
-<h2>clinic diet</h2>
-  <h3>role of nutrition services department</h3>
-  <ul>
-    <li>Our nutrition service staff will be taking care of your nutrition needs
+<div class="first-part" style="background:url(Images/fruits.jpeg); background-repeat:no-repeat; background-position: fixed; width: 100%;" >
+  <div class="clinic1">
+    <h2 style="font-size:50px;">clinic diet</h2>
+  </div>
+  <h3>Role of nutrition services department</h3>
+    <p>Our nutrition service staff will be taking care of your nutrition needs
     during your time with us.whenyou are ill or injured,your body needs specific nutrients and a combination of
-  nutrients to help you heal</li>
-  <li>Our job is to make sure that you are prescribed a nutrionally optimum diet
+  nutrients to help you heal</p>
+  <p>Our job is to make sure that you are prescribed a nutrionally optimum diet
   to meet your nutrients needs to recover.to achieve this goal,our registered dietician will review Your
-medical condition and adjust your diet.</li>
-<li>We understand that when you are not feeling well it can be difficult to eat your normal diet,we will
-recommend you to adjust the diet while taking your medication</li>
-<h3>Tips to eat well</h3>
-<img src="Images/index.jpeg" alt="">
-<ul>
-  <li>Base meals on starchy food</li>
-  <li>Eat alot of fruits and vegetables</li>
-  <li>eat more fish including a portion of oily fish each week</li>
-  <li>cut down on saturated fat and sugar</li>
-  <li>Eat less salt no more than 6g a day</li>
-  <li>Be active and maintain a healty weight</li>
-  <li>Drink plenty of water</li>
-  <li>Don't skip breakfast</li>
-</ul>
-<h3>General advice given to the patients</h3>
-<ul>
-  <li>Eat a variety of different foods;no single food provides all nutrients required
-  for the body to stay healthy</li>
-</ul>
-<li>Eat right amount of food</li>
+medical condition and adjust your diet.</p>
+<p>We understand that when you are not feeling well it can be difficult to eat your normal diet,we will
+recommend you to adjust the diet while taking your medication</p>
+</div>
+<div class="card-dark">
 
-  </div>
-  <div class="safety-overlay">
-    <h3>patient safety</h3>
+  <div class="view overlay">
 
+    <a>
+      <div class="mask rgba-white-slight"></div>
+    </a>
   </div>
-  <br>
+  <div class="card-body elegant-color white-text rounded-bottom">
+<a class="activator waves-effect mr-4"><i class="fas fa-share-alt white-text"></i></a>
+    <h4 class="card-title">tips to eat well</h4>
+    <hr class="hr-light">
+    <p class="card-text white-text mb-4"><ul>
+      <li>Base meals on starchy food</li>
+      <li>Eat alot of fruits and vegetables</li>
+      <li>eat more fish including a portion of oily fish each week</li>
+      <li>cut down on saturated fat and sugar</li>
+      <li>Eat less salt no more than 6g a day</li>
+      <li>Be active and maintain a healty weight</li>
+      <li>Drink plenty of water</li>
+      <li>Don't skip breakfast</li>
+    </ul></p>
+    </div>
+</div>
+<div class="card card-image"
+  style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
+
+
+  <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+    <div>
+      <h5 class="green-text"><i class="fas fa-chart-pie"></i> Advice</h5>
+      <h3 class="card-title pt-2"><strong>Genaral Advice To The Patient</strong></h3>
+      <p>Eat variety of foods,no single food provides all nutrients required by the body to stay healthy,
+        Eat right amount of food;the amount of food is determined by gender where males take alot of food,
+        than females,it is also determined by health.</p>
+      </div>
+  </div>
+
+</div>
+<br>
+<div class="second-part">
+<div class="clinic2">
+<h2 style="font-size:50px;">Patient Safety</h2>
+</div>
+<p>With a growing aging population people are receiving
+  health care at home,thus there might be safety issues in their environment
+  therefore several actions can be taken to make home as safe place as possible.</p>
+</div>
+<div class="row">
+    <div class="col-md-4">
+<div class="card-wrapper">
+  <div id="card-1" class="card card-rotating text-center">
+  <div class="card-body">
+        <h4 class="font-weight-bold mb-3">Providing necessary supplies and Equipment</h4>
+        <p class="font-weight-bold green-text">Unlike care in hospitalor clinic,the purchase of basic medical supplies may be responssibilty
+          of the patient when care is provided at home</p>
+      </div>
+      <hr>
+          <p>Talk to our team to make sure you have all necessary supplies</p>
+          <p>Refill medicines before they run out of dosage </p>
+          <p>Keep readily available hand sanitizers and other supplies needed to stop the sread of germs</p>
+          <p>If syringes or needles are used for care,provide sharps container for proper disposal</p>
+
+
+      <hr>
+        </div>
+      </div>
+    </div>
+      <br>
+    <div class="col-md-4">
+      <div class="card-wrapper">
+        <div id="card-1" class="card card-rotating text-center">
+
+          <div class="card-body">
+              <h4 class="font-weight-bold mb-3">Preventing falls</h4>
+              <p class="font-weight-bold green-text">common causes of injuries in the home is falling,to reduce the chances of falling one should;</p>
+            </div>
+            <hr>
+
+                <p>Check the house for hazards</p>
+                <p>Install adequet lighting</p>
+                <p>Install handrails and hand grap where needed</p>
+                <p>Use proper footware</p>
+                <P>Tell health care about your previous falls</P>
+                <p>Make the floors nonslip</p>
+                <p>Move more carefully</p>
+                <p>Clean up clutter</p>
+
+                <hr>
+              </div>
+            </div>
+          </div>
+    <div class="col-md-4">
+      <div class="card-wrapper">
+        <div id="card-1" class="card card-rotating text-center">
+          <div class="card-body">
+              <h4 class="font-weight-bold mb-3">Improving Air Quality</h4>
+              <p class="font-weight-bold green-text">Respiratory illness is a common medical problem among those receiving home health care
+                improving air quality is good for everyone's health and especially those with breathing problems</p>
+              </div>
+              <hr>
+
+              <p>Eliminate smoke</p>
+              <p>clean surfaces of dust</p>
+              <p>control Mold</p>
+              <p>Replace filters</p>
+              <p>Provide workig fire alarms and carbon monoxide detectors</p>
+              <p>Invest air purifier</p>
+            <hr>
+              </div>
+            </div>
+          </div>
+        </div>
+
+<div class="card card-image"
+  style="background-image: url(https://www.pexels.com/photo/hand-washing-3968083/);">
+
+
+  <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+    <div>
+      <h5 class="green-text"><i class="fas fa-chart-pie"></i> COVID</h5>
+      <h3 class="card-title pt-2"><strong>Protect yourself and others from COVID-19</strong></h3>
+
+        <p>Wash your hands often with soap and water atleast 20 seconds after being in public place ,or use a hand sanitizer with at least 60% alcohol</p>
+        <p>Avoid touching your eyes,nose and mouth with unwashed hands</li>
+        <p>Avoid close contact with people who are sick and practice social distance atleast 6 feet away from others.</p>
+        <p>Wear mask to cover your mouth and nose </p>
+        <p>Cover your nose and mouth with tissue when coughing or sneezing and throw away the tissue after using</p>
+        <p>Clean and disinfect frequently touched surfaces daily</p>
+
+
+    </div>
+  </div>
+
+</div>
+
+
+    <br><br><br><br>
     <!-- Footer -->
 <footer class="page-footer font-small ">
 

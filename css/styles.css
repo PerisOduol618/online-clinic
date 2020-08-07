@@ -1,14 +1,48 @@
-.first{
-    vertical-align: middle;
+body{
+  overflow-x: hidden;
+}
+
+.first {
+  vertical-align: middle;
   width: 50px;
   height: 50px;
   border-radius: 50%;
   display: inline-block;
   line-height: 50px;
 }
-.foot{
-    background-color: #00897b;
+.foot {
+  background-color: #00897b;
 }
-.page-footer{
- background-color: #00695c ; 
+.page-footer {
+  background-color: #00695c;
+}
+
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: "Adamina", serif;
+}
+h3 {
+  font-family: "Varta", sans-serif;
+}
+.home {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/Images/home1.jpeg) center/ cover no-repeat fixed;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+.one {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/Images/home4.jpeg) center/ cover no-repeat fixed;
+  height: 60vh;
+  background-repeat: no-repeat;
+}
+
+.two {
+  padding-top: 50px;
+  text-align: center;
+  color: white;
 }

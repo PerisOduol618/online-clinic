@@ -1,0 +1,16 @@
+.first {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 50px;
+}
+.foot {
+  background-color: #00897b;
+}
+.page-footer {
+  background-color: #00695c;
+}
+
+
